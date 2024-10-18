@@ -12,7 +12,7 @@ export const LoginPage = lazy(() => import('src/pages/auth/login'));
 export const RegisterPage = lazy(() => import('src/pages/auth/register'));
 
 // student imports
-export const DocumentManagement2 = lazy(()=> import('src/pages/student/document-management'))
+// export const DocumentManagement2 = lazy(()=> import('src/pages/student/document-management'))
 export const NeetPage = lazy(() => import('src/pages/student/neet-predictor'));
 export const PsychometricPage = lazy(() => import('src/pages/student/psychometric-assessment'));
 export const CourseInfoPage = lazy(() => import('src/pages/student/course-information'));
@@ -55,7 +55,7 @@ export const routesConfig = {
   '/products': ProductsPage,
 
   // user routes
-  '/legal/doc-management':DocumentManagement2,
+  // '/legal/doc-management':DocumentManagement2,
   // '/student/psychometric-assessment': PsychometricPage,
   // '/student/course-information': CourseInfoPage,
   // '/student/counsellor-interaction': CounsellorInteractPage,
